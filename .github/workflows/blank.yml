@@ -1,0 +1,8 @@
+name: Deploy HTML to s3
+on: push
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Testing
+        run: echo "Hello World"
